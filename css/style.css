@@ -1,0 +1,214 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', serif;
+}
+
+.wrapper {
+  max-width: 1144px;
+}
+
+.button {
+  padding: 10px 28px;
+  border-radius: 8px;
+  color: #1565D8;
+  border-color: #1565D8;
+  background-color: #ffffff;
+  border: 2px solid #1565D8;
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  padding: 11px 0 69px 0;
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 0;
+  margin-bottom: 69px;
+}
+
+.header-top__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  min-width: 600px;
+  padding: 7px 6px 11px 6px;
+}
+
+.header-top__menu__link {
+  margin-right: 23px;
+  text-decoration: none;
+  color: #183B56;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.header-top__menu__link:last-child {
+  margin: 0;
+}
+
+.header-top__menu__button {
+  width: 149px;
+  padding: 10px 28px;
+  border-radius: 8px;
+  margin-left: 36px;
+  color: #1565D8;
+  border-color: #1565D8;
+  background-color: #ffffff;
+  border: 2px solid #1565D8;
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.header-top__menu__button:hover {
+  background-color: #c2dbff;
+  color: #011229;
+}
+
+.promo {
+  width: 100%;
+}
+
+.promo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.promo-container__text {
+  padding-top: 48px;
+  padding-left: 3px;
+}
+
+.promo-container__text__title {
+  max-width: 443px;
+  margin: 0;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  color: #183B56;
+  margin-bottom: 28px;
+  letter-spacing: 0.2px;
+}
+
+.promo-container__text__title__heed {
+  color: #FAAD13;
+}
+
+.promo-container__text__subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #183B56;
+  letter-spacing: 0.2px;
+}
+
+.promo-container__annotation {
+  margin-top: 36px;
+  margin-bottom: 33px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  line-height: 32px;
+  color: #5A7184;
+}
+
+.promo-container__image {
+  max-width: 488px;
+  padding: 106px 119px 98px 119px;
+  background-color: #B3BAC5;
+}
+
+.promo .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 60px;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.promo .buttons-container {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 22px 0;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+
+.promo .buttons-container__button {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.promo .buttons-container__bay {
+  display: inline;
+  max-width: 235px;
+  color: #ffffff;
+  background-color: #1565D8;
+  text-decoration: none;
+  word-break: break-all;
+  padding: 18px 40px 17px 34px;
+  margin-right: 21px;
+}
+
+.promo .buttons-container__reed {
+  min-width: 235px;
+  word-break: break-all;
+  padding: 15px 30px 14px 30px;
+  font-size: 18px;
+  line-height: 25px;
+}
+/*# sourceMappingURL=style.css.map */
